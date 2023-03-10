@@ -4,6 +4,7 @@ Rust interface for writing and reading Windows File Properties
 Currently uses the Shell Property Store API to read and write properties.
 
 ### ref
+- All default windows file properties https://learn.microsoft.com/en-us/windows/win32/properties/props
 - https://learn.microsoft.com/en-us/windows/win32/properties/windows-properties-system
 - https://learn.microsoft.com/en-us/windows/win32/shell/shell-entry
 
