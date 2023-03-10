@@ -1,0 +1,24 @@
+[package]
+name = "file_properties"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.windows]
+version = "0.44.0"
+features = [
+    "implement",
+    "Foundation_Collections",
+    "Win32_Foundation",
+    "Win32_UI_Shell_PropertiesSystem",
+    "Win32_System_Com_StructuredStorage",
+    "Win32_System_Com",
+    "Win32_System_Ole",
+    "Win32_Storage_FileSystem",
+    "Win32_Security_Authorization",
+    "Win32_Security",
+    "Data_Text",
+]
+
+
+[profile.release]
+opt-level = 3
